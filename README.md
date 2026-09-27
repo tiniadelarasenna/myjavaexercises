@@ -6,47 +6,7 @@ The main goal of this repository is to practice Java fundamentals, improve probl
 
 ## Exercises
 
-### 1. Basic Calculator
-
-A console-based calculator that performs different arithmetic operations based on user input.
-
-#### Supported Operations
-
-| Operator | Operation |
-|----------|-----------|
-| `+` | Addition |
-| `-` | Subtraction |
-| `*` | Multiplication |
-| `/` | Division |
-| `^` | Power |
-| `%` | Modulo / Remainder |
-
-The program validates user input and prevents division by zero.
-
-The calculator separates different tasks into individual methods:
-
-- `takingNumber()` — reads and validates a number from the user.
-- `takingOperator()` — reads and validates the selected operator.
-- `calculation()` — performs the selected mathematical operation.
-
-#### Concepts Practiced
-
-- `Scanner` and user input
-- Methods
-- Parameters and arguments
-- Return values
-- `double` and `char` data types
-- `boolean` variables
-- `if / else` statements
-- `switch / case`
-- `do-while` loops
-- Input validation
-- Arithmetic operators
-- `Math.pow()`
-
----
-
-### 2. Weight Converter
+### 1. Weight Converter
 
 A console-based weight conversion program that converts values between pounds and kilograms.
 
@@ -85,6 +45,46 @@ The program validates the user's input to make sure that:
 - Input validation
 - Arithmetic operations
 - Unit conversion
+
+---
+
+### 2. Basic Calculator
+
+A console-based calculator that performs different arithmetic operations based on user input.
+
+#### Supported Operations
+
+| Operator | Operation |
+|----------|-----------|
+| `+` | Addition |
+| `-` | Subtraction |
+| `*` | Multiplication |
+| `/` | Division |
+| `^` | Power |
+| `%` | Modulo / Remainder |
+
+The program validates user input and prevents division by zero.
+
+The calculator separates different tasks into individual methods:
+
+- `takingNumber()` — reads and validates a number from the user.
+- `takingOperator()` — reads and validates the selected operator.
+- `calculation()` — performs the selected mathematical operation.
+
+#### Concepts Practiced
+
+- `Scanner` and user input
+- Methods
+- Parameters and arguments
+- Return values
+- `double` and `char` data types
+- `boolean` variables
+- `if / else` statements
+- `switch / case`
+- `do-while` loops
+- Input validation
+- Arithmetic operators
+- `Math.pow()`
 
 ---
 
